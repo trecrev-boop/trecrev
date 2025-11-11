@@ -180,7 +180,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Initialize EmailJS
     (function() {
-        emailjs.init("Dz_mPOQy6uX1STx-T"); // You'll need to replace this with your EmailJS public key
+        emailjs.init("saPI9mIjUc9HCNhRD"); // You'll need to replace this with your EmailJS public key
     })();
 
     // Contact form handling
@@ -213,8 +213,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 // - service_id: your service ID
                 // - template_id: your template ID
                 const response = await emailjs.send(
-                    'service_vmu3gbz',      // Replace with your EmailJS service ID
-                    'template_7mz4m1p',     // Replace with your EmailJS template ID
+                    'service_rw66yon',      // Replace with your EmailJS service ID
+                    'template_msu03fo',     // Replace with your EmailJS template ID
                     {
                         from_name: formData.name,
                         from_email: formData.email,
